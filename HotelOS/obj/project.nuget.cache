@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "O5OQWkhSA6Q=",
+  "success": true,
+  "projectFilePath": "D:\\assayment\\HotelOS4_clean\\HotelOS4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Saidakbar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\Saidakbar\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Saidakbar\\.nuget\\packages\\scalar.aspnetcore\\2.6.0\\scalar.aspnetcore.2.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "HotelOS4 depends on Scalar.AspNetCore (>= 2.5.14) but Scalar.AspNetCore 2.5.14 was not found. Scalar.AspNetCore 2.6.0 was resolved instead.",
+      "projectPath": "D:\\assayment\\HotelOS4_clean\\HotelOS4.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\assayment\\HotelOS4_clean\\HotelOS4.csproj",
+      "libraryId": "Scalar.AspNetCore",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

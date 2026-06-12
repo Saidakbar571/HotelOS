@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>HotelOS</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--
+      Swashbuckle .NET 10 da ishlamaydi.
+      .NET 10 built-in OpenAPI ishlatiladi:
+        app.MapOpenApi() → /openapi/v1.json
+        Scalar UI        → /scalar/v1
+    -->
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="Scalar.AspNetCore"            Version="2.5.14" />
+  </ItemGroup>
+</Project>
